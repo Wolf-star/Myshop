@@ -1,0 +1,400 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li,
+pre, form, fieldset, legend, button,
+input, textarea, th, td,img{ 
+	margin:0; padding:0; 
+}
+ul,ol,li{
+	list-style:none none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover { 
+	text-decoration:underline; 
+}
+input,select,option{
+	outline:none;
+}
+.clear{
+	clear:both;
+	overflow:hidden;
+}
+.hide{
+	display:none;
+}
+.active{
+	background:#f60;
+}
+.border{
+	border:2px solid #f60 !important;
+}
+/*header部分*/
+#header{
+	background:#fff;
+}
+#header .contWidth{
+	width:990px;
+	margin:0 auto;
+	line-height:72px;
+	height:72px;
+}
+#header .logo{
+	float:left;
+	height:72px;
+}
+#header .search{
+	float:left;
+	margin:0 30px;
+}
+
+#header .login{
+	float:right;
+	margin:0 50px;
+}
+#header .login a{
+	font-size:14px;
+	color:#4A4A4A;
+	font-weight:700;
+}
+#header a.phone {
+	font-size:12px;
+	font-weight:700;
+	color:#f60;
+	position:relative;
+}
+.bgm{
+	position:absolute;
+	top:10px;
+	right:-50px;
+	padding:15px;
+	z-index:999;
+}
+.ph{
+	padding:20px 0 0 0;
+	width:100px;
+	height:100px;
+	border:1px solid #eee;
+	text-align:center;
+	background:#fff;
+	box-shadow:0 0 10px #eee;
+	overflow:hidden;
+}
+.mainNav{
+	clear:both;
+	margin:10px auto;
+	width:990px;;
+	height:30px;
+	line-height:30px;
+	z-index:100;
+	background-color:#4a4a4a;
+}
+.nav:first-child{
+	text-indent:20px;
+}
+.mainNav ul li{
+	float:left;
+	display:inline;
+	margin-right:14px;
+	position:relative;
+	z-index:100;
+}
+.mainNav ul li a{
+	display:block;
+	padding:0 8px;
+	font-weight:700;
+	color:#fff;
+	font-size:14px;
+}
+/*内容部分*/
+#content{
+	clear:left;
+	margin:0 auto;
+	width:990px;
+}
+#jnCatalog{
+	float:left;
+	height:560px;
+	margin:0 11px 0 0;
+	overflow:hidden;
+	width:187px;
+	box-sizing:border-box;
+	border:1px #777 solid;
+}
+#jnCatalog h2{
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	font-size:14px;
+	text-indent:14px;
+	background:#6e6e6e;
+}
+#jnCatalog h3{
+	border-bottom:1px solid #EEE;
+	height:24px;
+	line-height:24px;
+	width:164px;
+	font-size:13px;
+	margin:3px 0 0 5px;
+	
+}
+#jnCatalog ul li{
+	margin:0 0 0 5px;
+	float:left;
+	width:79px;
+	height:25px;
+	line-height:25px;
+	font-size:13px;
+	position:relative;
+	overflow:hidden;
+}
+.hot{
+	position:absolute;
+	top:0;
+	height:16px;
+	width:21px;
+	background:url(../img/01f_03.jpg) no-repeat;
+}
+.promoted{
+	color:#f9044e;
+}
+.jnlist{
+	padding:0 0 0 10px;
+}
+#jnImageroll{
+	float:left;
+	height:320px;
+	margin:0 11px 0 0;
+	overflow:hidden;
+	position:relative;
+	width:550px;
+}
+#jnImageroll .banImg img{
+	top:0;
+	left:0;
+}
+#jnImageroll .ban {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+}
+#jnImageroll .ban a{
+	float:left;
+	display:block;
+	width:25%;
+	font-size:12px;
+	padding:3px 0;
+}
+
+#jnNotice{
+	float:left;
+	height:321px;
+	overflow:hidden;
+	width:230px;
+}
+#jnNotice h3{
+	font-size:14px;
+	padding:6px 0;
+	text-indent:5px;
+}
+#jnNotice ul li{
+	padding:2px 0;
+	text-indent:5px;
+	letter-spacing:1px;
+	background:#f7f5d1;
+	overflow:hidden;
+}
+#jnNotice ul li a{
+	font-size:12px;
+	color:#333;
+}
+#jnBrand{
+	float:left;
+	height:230px;
+	margin:10px 0 0 0;
+	overflow:hidden;
+	width:790px;
+	position:relative;
+}
+#jnBrand .brandTop{
+	height:20px;
+	line-height:20px;
+}
+#jnBrand .brandTop h3{
+	font-size:14px;
+	float:left;
+}
+#jnBrand .brand-right{
+	float:right;
+}
+#jnBrand .brand-right li{
+	text-align:center;
+	width:57px;
+	float:left;
+	padding:0 2px;
+}
+#jnBrand .brand-right li a{
+	font-size:14px;
+	font-weight:700;
+}
+#jnBrand .brandBottom {
+	position:absolute;
+	left:0;
+	top:0;
+	margin:20px 0;
+	width:3200px;
+}
+#jnBrand .brandBottom li{
+	float:left;
+	height:188px;
+	width:197.5px;
+	overflow:hidden;
+	margin:20px 0;
+	position:relative;
+}
+/*#jnBrand .brandBottom li img{
+	left:5px;
+	position:absolute;
+	top:0;
+}*/
+#jnBrand .brandBottom li span{
+	display:block;
+	font-size:13px;
+	position:absolute;
+	bottom:0;
+	right:50%;
+}
+#footer {
+	width:990px;
+	margin:0 auto;
+}
+#footer .copyright{
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+/*.imageOver{
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}*/
+/*第二个页面*/
+#goods{
+	float:left;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+#goods .goodsLeft{
+	width:312px;
+	height:560px;
+	float:left;
+}
+
+#goods .goodsRight{
+	margin:0 0 0 20px;
+	width:460px;
+	float:right;
+	
+}
+#goods .showP {
+	border:1px solid #bbb;
+	cursor:pointer;
+	padding:0;
+	position:relative;
+}
+#goods .goodsLeft .product li{
+	float:left;
+	margin:10px 0;
+}
+#goods .goodsLeft  .check{
+	display:block;
+	text-align:center;
+	margin:15px 0;
+	font-size:14px;
+	font-weight:700;
+	text-decoration:none;
+}
+
+#goods .goodsLeft .smallP li{
+	margin:10px 5px;
+	padding:0 4px;
+	border:1px solid #999;
+}
+#goods .goodsLeft .pList{
+	margin:20px 0 0 0;
+}
+#goods .goodsLeft .pList li{
+	padding:4px 5px;
+	font-size:12px;
+	border:1px solid #000;
+	border-bottom-width:0;
+	margin:0 5px;
+	cursor:pointer;
+}
+#goods .goodsLeft .pDetail div{
+	border:1px dotted #000;
+	margin:0 1px;
+	padding:2px 2px;
+	font-size:12px;
+	letter-spacing:2px;
+	line-height:1.5em;
+}
+
+#goods .goodsRight h3{
+	margin:5px 0;
+}
+#goods .goodsRight p{
+	margin:5px 0;
+	font-size:12px;
+	letter-spacing:2px;
+	line-height:2em;
+}
+#goods .goodsRight li{
+	margin:15px 0;
+	font-size:12px;
+}
+#goods .goodsRight li span{
+	
+}
+#goods .goodsRight li  em{
+	font-style:normal;
+}
+#goods .goodsRight li strong{
+	color:#f60;
+	margin:1px 1px;
+	font-size:20px;
+}
+#goods .goodsRight .color em{
+	border:1px solid #999;
+	padding:3px 5px;
+}
+#goods .goodsRight .imglist li{
+	box-sizing: border-box;
+	float:left;
+	margin:5px 5px;
+	padding:0 4px;
+	border:1px solid #999;
+}
+#goods .goodsRight .sizestyle{
+	margin:5px 0;
+}
+#goods .goodsRight .sizestyle span{
+	border:1px solid #777;
+	padding:1px 6px;
+	cursor:pointer;
+}
+#goods .goodsRight .select{
+	width:35px;
+	text-align:center;
+}
+
+#goods .goodsRight .buycar{
+	background:#FF6600;
+	width:80px;
+	padding:2px 5px;
+	border-radius:5px;
+	color:#fff;
+	box-shadow:0 0 10px #444444;
+	font-size:14px;
+	text-align:center;
+}
